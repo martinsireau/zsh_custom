@@ -1,0 +1,5 @@
+[user]
+	email = msireau@student.42.fr
+	name = msireau
+[push]
+	default = simple
