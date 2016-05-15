@@ -32,7 +32,7 @@ ZSH_THEME="poison"
 # DISABLE_AUTO_TITLE="true"
 
 # Uncomment the following line to enable command auto-correction.
-ENABLE_CORRECTION="true"
+# ENABLE_CORRECTION="true"
 
 # Uncomment the following line to display red dots whilst waiting for completion.
 # COMPLETION_WAITING_DOTS="true"
@@ -101,9 +101,9 @@ man()
         LESS_TERMCAP_us=$(printf "\e[1;32m") \
         man "$@"
 }
-alias ls="exa --git --group"
-alias l="ls -la"
-alias la="ls -la"
-alias ll="ls -l"
-alias lt="ls -l --tree"
-alias lg="ls -l --grid"
+alias ls="exa"
+alias l="ls -la --git --group"
+alias la="ls -la --git --group"
+alias ll="ls -l --git --group"
+alias lt="ls -l --tree --group"
+alias lg="ls -l --grid --git --group"
