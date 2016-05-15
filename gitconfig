@@ -1,5 +1,9 @@
+# This is Git's per-user configuration file.
 [user]
+# Please adapt and uncomment the following lines:
+	name = Martin SIREAU
 	email = msireau@student.42.fr
-	name = msireau
+[core]
+	editor = /usr/bin/vim
 [push]
 	default = simple
